@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Madhankumar V — Data Analyst & Senior MIS Executive</title>
+  <meta name="description" content="Portfolio of Madhankumar V — Senior MIS Executive & Data Analyst. SQL, Power BI, Tableau, Excel automation, dashboards." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--bg:#0f172a;--muted:#94a3b8;--accent:#6366f1}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    .glass{backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.6)}
+    /* Simple animated skill bar */
+    .skill-bar{height:10px;border-radius:9999px;background:#e6edf3;overflow:hidden}
+    .skill-fill{height:100%;border-radius:9999px;transform-origin:left}
+    /* Light fallback for no-JS */
+    .no-js .skill-fill{transform:none}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur-sm border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg" style="background: linear-gradient(135deg,var(--accent),#06b6d4);"></div>
+          <div>
+            <p class="font-semibold">Madhankumar V</p>
+            <p class="text-xs text-slate-500">Senior MIS Executive • Data Analyst</p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#about" class="hover:text-slate-900">About</a>
+          <a href="#experience" class="hover:text-slate-900">Experience</a>
+          <a href="#projects" class="hover:text-slate-900">Projects</a>
+          <a href="#case-studies" class="hover:text-slate-900">Case Studies</a>
+          <a href="#certifications" class="hover:text-slate-900">Certifications</a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-indigo-600 to-teal-400 text-white rounded-md shadow">Contact</a>
+        </nav>
+
+        <div class="md:hidden">
+          <button id="menuBtn" class="p-2 rounded-md border border-slate-200 bg-white">☰</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200">
+      <div class="px-4 py-4 flex flex-col gap-2">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="mt-2 inline-block px-3 py-2 bg-indigo-600 text-white rounded">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+        <div class="lg:col-span-2">
+          <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Hi, I'm <span class="text-indigo-600">Madhankumar V</span></h1>
+          <p class="mt-4 text-slate-600 max-w-2xl">Senior MIS Executive & Data Analyst with 5+ years experience building automated reports, dashboards and data solutions. I turn raw data into clear insights using SQL, Power BI, Tableau, Metabase and advanced Excel automation.</p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#projects" class="inline-block px-4 py-2 border rounded-md text-sm">View Work</a>
+            <a href="/Madhankumar_Resume_Updated.pdf" download class="inline-block px-4 py-2 bg-indigo-600 text-white rounded-md text-sm">Download CV</a>
+            <a href="https://www.linkedin.com/in/madhankumar-v-7779b3185/" target="_blank" class="inline-block px-4 py-2 border rounded-md text-sm">LinkedIn</a>
+          </div>
+
+          <div class="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-md">
+            <div class="p-3 glass rounded-md border">
+              <p class="text-xs text-slate-500">Location</p>
+              <p class="font-medium">Vellore, Tamil Nadu</p>
+            </div>
+            <div class="p-3 glass rounded-md border">
+              <p class="text-xs text-slate-500">Availability</p>
+              <p class="font-medium">Remote / Vellore</p>
+            </div>
+            <div class="p-3 glass rounded-md border">
+              <p class="text-xs text-slate-500">Email</p>
+              <p class="font-medium">madhankumar18497@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="order-first lg:order-last flex justify-center lg:justify-end">
+          <div class="w-56 h-56 rounded-xl shadow-lg overflow-hidden border border-slate-200 bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center">
+            <div class="text-center px-3">
+              <p class="text-sm text-slate-500">Profile</p>
+              <p class="mt-2 font-semibold text-lg">Madhankumar V</p>
+              <p class="text-xs text-slate-500 mt-2">Senior MIS Executive & Data Analyst</p>
+              <div class="mt-4 flex justify-center gap-2 text-sm">
+                <a href="https://github.com/madhankumar12v" target="_blank" title="GitHub" class="text-slate-600">GitHub</a>
+                <a href="https://public.tableau.com/app/profile/madhankumar.v/vizzes" target="_blank" title="Tableau" class="text-slate-600">Tableau</a>
+                <a href="https://www.hackerrank.com/profile/madhankumar18497" target="_blank" title="HackerRank" class="text-slate-600">HackerRank</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT + TIMELINE -->
+    <section id="about" class="bg-white border-t border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div class="lg:col-span-2">
+            <h2 class="text-2xl font-semibold">About</h2>
+            <p class="mt-4 text-slate-600">I specialise in automated reporting, dashboards and pipelines that reduce manual effort and help leadership make timely decisions. My typical projects combine ETL pipelines, SQL-driven analysis, and visuals in Power BI / Tableau delivered via dashboards or scheduled reports.</p>
+
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="p-4 rounded-md bg-slate-50 border">
+                <h3 class="font-medium">Strengths</h3>
+                <ul class="mt-2 text-sm text-slate-600 space-y-1">
+                  <li>Data automation & dashboarding</li>
+                  <li>Advanced Excel & VBA</li>
+                  <li>SQL analysis & ETL</li>
+                  <li>Stakeholder reporting</li>
+                </ul>
+              </div>
+
+              <div class="p-4 rounded-md bg-slate-50 border">
+                <h3 class="font-medium">Work Preference</h3>
+                <p class="mt-2 text-sm text-slate-600">Open to remote roles and local opportunities in Vellore. Comfortable working with cross-functional teams to deliver reporting solutions and training.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-md border bg-white">
+            <h3 class="font-semibold">Professional Timeline</h3>
+            <ol class="mt-4 text-sm text-slate-600 space-y-3">
+              <li><strong>Oct 2023 – Present</strong> • Senior MIS Executive & Insurance Incharge — Jain Cars & Automobile Group</li>
+              <li><strong>Oct 2022 – Sep 2023</strong> • Data Analyst — Amrita Vishwa Vidyapeetham University</li>
+              <li><strong>Sep 2019 – Sep 2022</strong> • MIS Executive — Rural Shores Business Pvt. Ltd.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE DETAILS -->
+    <section id="experience" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-2xl font-semibold">Experience</h2>
+      <div class="mt-6 space-y-6">
+
+        <article class="p-4 border rounded-md bg-white">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-semibold">Senior MIS Executive & Insurance Incharge</h3>
+              <p class="text-sm text-slate-500">Jain Cars & Automobile Group • Oct 2023 – Present</p>
+            </div>
+            <div class="text-sm text-slate-500">Vellore / Remote</div>
+          </div>
+
+          <ul class="mt-3 text-sm text-slate-600 list-disc ml-5 space-y-1">
+            <li>Automated 15+ monthly reports using Excel & Google Data Studio, reducing manual workload by 40%.</li>
+            <li>Designed real-time dashboards for senior management, accelerating decision-making by 30%.</li>
+            <li>Managed incentive payout calculations with 100% accuracy and handled insurance operations.</li>
+            <li>Led data migration from Excel to Looker Studio for 50+ users.</li>
+          </ul>
+        </article>
+
+        <article class="p-4 border rounded-md bg-white">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-semibold">Data Analyst</h3>
+              <p class="text-sm text-slate-500">Amrita Vishwa Vidyapeetham University • Oct 2022 – Sep 2023</p>
+            </div>
+            <div class="text-sm text-slate-500">Remote / Vellore</div>
+          </div>
+          <ul class="mt-3 text-sm text-slate-600 list-disc ml-5 space-y-1">
+            <li>Analyzed data using SQL and Metabase to find key trends and insights.</li>
+            <li>Built and maintained interactive dashboards and reports in Metabase and Excel.</li>
+          </ul>
+        </article>
+
+        <article class="p-4 border rounded-md bg-white">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="font-semibold">MIS Executive</h3>
+              <p class="text-sm text-slate-500">Rural Shores Business Pvt. Ltd. • Sep 2019 – Sep 2022</p>
+            </div>
+            <div class="text-sm text-slate-500">Vellore</div>
+          </div>
+          <ul class="mt-3 text-sm text-slate-600 list-disc ml-5 space-y-1">
+            <li>Managed the end-to-end AWB process and prepared daily/weekly/monthly reports.</li>
+            <li>Performed data validation, cleansing and KPI tracking for operational excellence.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS GALLERY -->
+    <section id="projects" class="bg-white border-t border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-2xl font-semibold">Projects & Gallery</h2>
+        <p class="mt-2 text-sm text-slate-600">A curated list of public dashboards, code repositories and example reports. Click to open each project.</p>
+
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="https://public.tableau.com/app/profile/madhankumar.v/vizzes" target="_blank" class="p-4 border rounded-md bg-white hover:shadow">
+            <h4 class="font-semibold">Tableau Public</h4>
+            <p class="text-sm text-slate-600 mt-1">Interactive visualizations & public dashboards.</p>
+          </a>
+
+          <a href="https://github.com/madhankumar12v" target="_blank" class="p-4 border rounded-md bg-white hover:shadow">
+            <h4 class="font-semibold">GitHub</h4>
+            <p class="text-sm text-slate-600 mt-1">Scripts, SQL queries and automation examples.</p>
+          </a>
+
+          <a href="https://www.hackerrank.com/profile/madhankumar18497" target="_blank" class="p-4 border rounded-md bg-white hover:shadow">
+            <h4 class="font-semibold">HackerRank</h4>
+            <p class="text-sm text-slate-600 mt-1">SQL & problem-solving profile.</p>
+          </a>
+
+          <div class="p-4 border rounded-md bg-white">
+            <h4 class="font-semibold">Sample Dashboard (Image)</h4>
+            <p class="text-sm text-slate-600 mt-1">Insert screenshots of Power BI/Tableau here — use an <code>&lt;img&gt;</code> tag with hosted image.</p>
+          </div>
+
+          <div class="p-4 border rounded-md bg-white">
+            <h4 class="font-semibold">MRSA WhatsApp Blaster (Demo)</h4>
+            <p class="text-sm text-slate-600 mt-1">A tool demo built with Google Sheets & Apps Script (link to demo or repo).</p>
+          </div>
+
+          <div class="p-4 border rounded-md bg-white">
+            <h4 class="font-semibold">Advanced Billing Software Plan</h4>
+            <p class="text-sm text-slate-600 mt-1">Design document & feature list for MRSA Advanced Billing Software.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="case-studies" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-2xl font-semibold">Case Studies</h2>
+      <p class="mt-2 text-sm text-slate-600">Short walkthroughs that show the problem, your approach, and the impact.</p>
+
+      <div class="mt-6 space-y-6">
+        <article class="p-4 border rounded-md bg-white">
+          <h3 class="font-semibold">Dashboard Automation for Incentive Payouts</h3>
+          <p class="text-sm text-slate-600 mt-1">Problem: Manual incentive calculations caused delays and errors. Approach: Built Excel automation and a central dashboard that consolidated monthly data from multiple sources using SQL & Apps Script. Outcome: Reduced processing time by 60% and eliminated reconciliation errors.</p>
+        </article>
+
+        <article class="p-4 border rounded-md bg-white">
+          <h3 class="font-semibold">Real-time Sales Dashboard for Management</h3>
+          <p class="text-sm text-slate-600 mt-1">Problem: Management lacked a single source of truth for daily sales. Approach: Implemented an ETL flow and Power BI dashboard with hourly refresh. Outcome: Faster decision cycles and improved inventory planning.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS + RATINGS -->
+    <section id="skills" class="bg-white border-t border-b border-slate-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-2xl font-semibold">Skills</h2>
+        <p class="mt-2 text-sm text-slate-600">Technical skills and self-assessed proficiency — adjust percentages as needed.</p>
+
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-medium">Data & BI</h4>
+            <div class="mt-3 space-y-3">
+              <div>
+                <div class="flex justify-between text-sm"><span>SQL</span><span>95%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:95%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Power BI</span><span>90%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:90%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Tableau</span><span>85%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:85%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="font-medium">Tools & Automation</h4>
+            <div class="mt-3 space-y-3">
+              <div>
+                <div class="flex justify-between text-sm"><span>Excel & VBA</span><span>95%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:95%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Google Sheets & Apps Script</span><span>90%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:90%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Python (Pandas)</span><span>70%</span></div>
+                <div class="skill-bar mt-1"><div class="skill-fill bg-indigo-600" style="width:70%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-2xl font-semibold">Certifications & Awards</h2>
+      <p class="mt-2 text-sm text-slate-600">Verified highlights — include PDFs or images in your repo for download links to work.</p>
+
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="p-4 rounded-md border bg-slate-50">
+          <p class="text-sm font-medium">SQL (Advanced) — HackerRank</p>
+          <a href="#" class="text-sm text-indigo-600 mt-2 inline-block">View / Download</a>
+        </div>
+        <div class="p-4 rounded-md border bg-slate-50">
+          <p class="text-sm font-medium">Python — Great Learning</p>
+          <a href="#" class="text-sm text-indigo-600 mt-2 inline-block">View / Download</a>
+        </div>
+        <div class="p-4 rounded-md border bg-slate-50">
+          <p class="text-sm font-medium">Power BI — Great Learning</p>
+          <a href="#" class="text-sm text-indigo-600 mt-2 inline-block">View / Download</a>
+        </div>
+        <div class="p-4 rounded-md border bg-slate-50">
+          <p class="text-sm font-medium">Visual Analytics with Tableau — Coursera (UC Davis)</p>
+          <a href="#" class="text-sm text-indigo-600 mt-2 inline-block">View / Download</a>
+        </div>
+        <div class="p-4 rounded-md border bg-slate-50">
+          <p class="text-sm font-medium">Doing more with Google Sheets — Google Cloud</p>
+          <a href="#" class="text-sm text-indigo-600 mt-2 inline-block">View / Download</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="md:col-span-2">
+          <h2 class="text-2xl font-semibold">Contact</h2>
+          <p class="mt-2 text-sm text-slate-600">I'm open to new roles, freelance projects and collaborations. Use the contact form or email me directly.</p>
+
+          <form id="contactForm" class="mt-6 space-y-4 max-w-xl">
+            <div>
+              <label class="text-sm">Name</label>
+              <input required name="name" class="w-full mt-1 p-2 border rounded" />
+            </div>
+            <div>
+              <label class="text-sm">Email</label>
+              <input required type="email" name="email" class="w-full mt-1 p-2 border rounded" />
+            </div>
+            <div>
+              <label class="text-sm">Message</label>
+              <textarea required name="message" class="w-full mt-1 p-2 border rounded" rows="5"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded">Send Message</button>
+              <a href="mailto:madhankumar18497@gmail.com" class="ml-3 text-sm text-slate-600">Or email directly</a>
+            </div>
+            <p class="text-xs text-slate-500">This contact form posts to Formspree (client-side) — follow README to configure your endpoint or replace with server-side mail.</p>
+          </form>
+        </div>
+
+        <div class="p-4 rounded-md border bg-slate-50">
+          <h3 class="font-semibold">Quick Links</h3>
+          <ul class="mt-3 text-sm text-slate-600 space-y-2">
+            <li><a href="https://www.linkedin.com/in/madhankumar-v-7779b3185/" target="_blank" class="text-indigo-600">LinkedIn</a></li>
+            <li><a href="https://github.com/madhankumar12v" target="_blank" class="text-indigo-600">GitHub</a></li>
+            <li><a href="https://public.tableau.com/app/profile/madhankumar.v/vizzes" target="_blank" class="text-indigo-600">Tableau Public</a></li>
+            <li><a href="https://www.hackerrank.com/profile/madhankumar18497" target="_blank" class="text-indigo-600">HackerRank</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-12 border-t bg-white/60 border-slate-200">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between text-sm text-slate-500">
+        <div>© <span id="year"></span> Madhankumar V — Data Analyst</div>
+        <div>Built with ♥ • Resume available to download</div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const btn = document.getElementById('menuBtn');
+    const mobile = document.getElementById('mobileMenu');
+    btn.addEventListener('click', ()=> mobile.classList.toggle('hidden'));
+
+    // Contact form: example using Formspree - replace URL with your endpoint
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const data = new FormData(form);
+      const payload = {};
+      data.forEach((v,k)=> payload[k]=v);
+      try{
+        // replace the URL below with your Formspree endpoint or server endpoint
+        const res = await fetch('https://formspree.io/f/your-form-id', {
+          method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
+        });
+        if(res.ok){ alert('Message sent — thank you!'); form.reset(); }
+        else{ alert('Failed to send. Configure your form endpoint.'); }
+      }catch(err){ alert('Error sending message — check your endpoint.'); }
+    });
+  </script>
+</body>
+</html>
